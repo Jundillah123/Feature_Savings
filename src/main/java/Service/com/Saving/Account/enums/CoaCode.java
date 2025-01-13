@@ -1,18 +1,13 @@
 package Service.com.Saving.Account.enums;
 
+public enum CoaCode {
 
-public enum Status  {
-
-    ACTIVE("1", "ACTIVE"),
-    PENDING("2", "PENDING"),
-    INACTIVE("3", "INACTIVE"),
-    COMPLETED("4", "COMPLETED" )
-    ;
+    KASTABUNGAN("2", "2");
 
     private final String key;
     private final String value;
 
-    Status(String key, String value) {
+    CoaCode(String key, String value){
         this.key = key;
         this.value = value;
     }
@@ -20,6 +15,7 @@ public enum Status  {
     public String getKey() {
         return key;
     }
+
     public String getValue() {
         return value;
     }

@@ -1,12 +1,12 @@
 package Service.com.Saving.Account.enums;
 
-import Service.com.Saving.Account.entity.TSavingAccountDetail;
 
 
 public enum Mutation {
 
     DEBIT("Debit", "D"),
-    CREDIT("Credit", "C");
+    CREDIT("Credit", "C"),
+    TRANSFER("Transfer", "TF");
 
     private final String type;
     private final String description;
@@ -20,6 +20,7 @@ public enum Mutation {
     public String getType() {
         return type;
     }
+
 
     public String getDescription() {
         return description;

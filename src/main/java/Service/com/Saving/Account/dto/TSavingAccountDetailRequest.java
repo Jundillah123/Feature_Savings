@@ -19,6 +19,7 @@ public class TSavingAccountDetailRequest {
     private String mutation;
     private String sourceAccountNumber;
     private String destAccountNumber;
+    private String descriptionn;
     private BigDecimal endBalance;
     private BigDecimal balance;
     private String referenceCode;
